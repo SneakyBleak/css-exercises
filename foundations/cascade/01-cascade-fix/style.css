@@ -4,24 +4,30 @@ body {
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  color: black;
+  font-weight: 100;
 }
 
 .small-para {
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+.para:first-child {
+  font-size: 32px;
+  font-weight: 1000;
 }
 
-.confirm {
-  background: green;
+button.confirm {
+  background-color: green;
   color: white;
   font-weight: bold;
+  font-size: 28px;
 } 
+
+button.cancel {
+  font-size: 28px;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +35,16 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
-  font-size: 22px;
   font-weight: 100;
+  font-size: 28px;
 }
+
+div.text.child {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+
